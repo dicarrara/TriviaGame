@@ -1,0 +1,95 @@
+.answerchoice {
+	border: 1px solid black;
+  border-radius: 5%;
+	width: 40%;
+	color: black;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  background-color: white;
+
+}
+
+img {
+  max-height: 250px;
+  width: auto;
+}
+
+#answerblock {
+  text-align: center;
+
+}
+
+#questionblock {
+  text-align: center;
+  font-weight: bold;
+}
+
+#reset {
+  visibility: visible;
+  background-color: black;
+  color: white;
+    
+}
+
+body {
+  background-image: url("../images/hollywood.jpg");
+  /* background-size: cover; */
+  font-family: 'Karla', sans-serif;
+}
+
+/* h1 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  padding: 20px;
+  font-size: 60px;
+} */
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fffbfd, 0 0 40px #414040, 0 0 50px #414040, 0 0 60px #414040, 0 0 70px #414040;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #9b9899, 0 0 40px #9b9899, 0 0 50px #9b9899, 0 0 60px #9b9899, 0 0 70px #9b9899, 0 0 80px #9b9899;
+  }
+}
+
+p {
+  margin: 10px;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+
+h2,h3, h4 {
+  margin: 30px;
+  font-weight: bold;
+  padding-top:20px;
+}
+
+.wrapper {
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 500px;
+  width: 60%;
+  text-align: center;
+}
+
+#start {
+  position: relative;
+  bottom: -210px;
+  background: black;
+  font-size: 30px;
+  color: white;
+  
+}
