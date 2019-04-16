@@ -33,7 +33,7 @@ $(document).ready(function() {
         "Marilyn Monroe"
       ],
       correctAnswer: 0,
-      // picture: "assets/images/pop.png"
+      picture: "./assets/images/audrey.jpg",
     },
   
     {
@@ -45,7 +45,7 @@ $(document).ready(function() {
         "The Unforgiven"
       ],
       correctAnswer: 3,
-      // picture: "assets/images/pop.png"
+      picture: "./assets/images/unfor.jpg",
     },
   
     {
@@ -57,7 +57,7 @@ $(document).ready(function() {
         "John Cheever"
       ],
       correctAnswer: 1,
-      // picture: "assets/images/pop.png"
+      picture: "./assets/images/house.jpg",
     },
   
     {
@@ -69,7 +69,7 @@ $(document).ready(function() {
         "Watering Can"
       ],
       correctAnswer: 0,
-      // picture: "assets/images/pop.png"
+      picture: "./assets/images/apartments.jpg",
     }
   ];
   
@@ -102,7 +102,7 @@ $(document).ready(function() {
     $("#timeleft").html("<h2>Seconds left: " + timer + "</h2>");
     timer--;
   
-      if (timer === 0) {
+      if (timer < 0) {
       stopTimer();
       unanswerCount++;       
       $("#questions").html("<h2>You run out of time</h2>");
