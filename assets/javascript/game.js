@@ -80,7 +80,6 @@ $(document).ready(function() {
     startTimer();
    
     for (var i = 0; i < allQuestions.length; i++) {
-      // put questions in holder in random order
       holder.push(allQuestions[i]);
       console.log("This is the holder" + holder);
     }
@@ -119,10 +118,7 @@ $(document).ready(function() {
   }
   
   function displayQuestion() {
-    // picking one of the objects in our array randomly
-    
-    // oneOfTheObject = Math.floor(Math.random() * allQuestions.length);
-    // console.log("this is the picked object " + oneOfTheObject);
+   
     pickedObject = holder.pop();
   
     $("#questions").html("<h3>" + pickedObject.question + "</h3>");
@@ -157,8 +153,7 @@ $(document).ready(function() {
     }
   });
   
-  // ------------------- works till here
-  
+
   function forPicture() {
     $("#answerblock").html("<img src=" + pickedObject.picture + ">");
     
@@ -188,7 +183,7 @@ $(document).ready(function() {
     $("#answerblock").empty();
     $("#questions").empty();
     for (var i = 0; i < allQuestions.length; i++) {
-      // put questions in holder in random order
+      
       holder.push(allQuestions[i]);
       console.log("This is the holder" + holder);
     }
